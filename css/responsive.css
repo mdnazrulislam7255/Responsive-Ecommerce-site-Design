@@ -1,0 +1,538 @@
+@media only screen and (min-width:300px) and (max-width:1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .bodycontainer {
+        width: 100%;
+        height: auto;
+        overflow: auto;
+    }
+
+    .header {
+        width: auto;
+        overflow: auto;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 40px;
+        overflow: auto;
+        margin-top: 2px;
+        list-style: none;
+    }
+
+    .divlogo {
+        height:40px;
+        width: auto;
+        overflow: auto;
+        float: left;
+    }
+
+    .logo {
+        height: 30px;
+        width: 40px;
+        padding-left: 10px;
+        margin-top: 4px;
+    }
+
+    .navlist {
+        height: auto;
+        width: auto;
+        display: block;
+        float: right;
+    }
+
+    .navlist ul {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .navlist li {
+        display: block;
+    }
+
+    .navlist li a:not(.homecolor) {
+        display: block;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        padding: 13px 25px;
+    }
+
+    .homecolor {
+        display: block;
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        padding: 13px 25px;
+    }
+
+    li a:hover {
+        background-color: #808080;
+    }
+
+    .div_image {
+        width: 100%;
+        height: 250px;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/image.jpg);
+        margin-top: 1px;
+        background-repeat: no-repeat;
+        background-size: 100% 400px;
+    }
+
+    .div_image h3 {
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 22%;
+        left: 15%;
+        color: white;
+        font-size: 11px;
+    }
+
+    .div_image a {
+        text-transform: uppercase;
+        position: relative;
+        text-decoration: none;
+        display: block;
+        border: 1px solid white;
+        color: white;
+        top: 25%;
+        left: 15%;
+        padding-top: 1px;
+        height: 14px;
+        width: 80px;
+        text-align: center;
+        background: transparent;
+        font-size: 12px;
+    }
+
+    .div_image a:hover {
+        background-color: lightgray;
+    }
+
+    .body_top {
+        height: 200px;
+        width: 94%;
+        display: block;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+
+    .body_top h2 {
+        font-size: 14px;
+        width: 50%;
+        color: #CD5C5C;
+        padding-left: 2px;
+        padding-top: 5px;
+        text-transform: uppercase;
+    }
+
+    .body_top p {
+        font-size: 13px;
+        text-decoration: none;
+        text-align: justify;
+        margin-top: 10px;
+        padding-left: 2px;
+    }
+
+    .body_top a {
+        background-color: #fff;
+        text-decoration: none;
+        margin-top: 5px;
+        color: #CD5C5C;
+        border: 1px solid #CD5C5C;
+        width: 60px;
+        font-size: 12px;
+        padding: 5px;
+        text-align: center;
+        display: block;
+        margin-left: 2px;
+    }
+
+    .body_top a:hover {
+        background-color: burlywood;
+    }
+
+    .div_center {
+        width: 100%;
+        height: auto;
+        background-color: #F8F9F9;
+        margin-top: 0px;
+        overflow: hidden;
+    }
+
+    .div_left {
+        height: 395px;
+        width: 100%;
+        background-color: #F0F0F0;
+        float: left;
+    }
+
+    .div_left h2 {
+        font-size: 13px;
+        width: 89%;
+        color: #CD5C5C;
+        text-transform: uppercase;
+        position: relative;
+        top: 12%;
+        left: 7%;
+    }
+
+    .div_left p {
+        height: auto;
+        width: 87%;
+        font-size: 13px;
+        text-align: justify;
+        margin-left: 7%;
+        margin-top: 1px;
+    }
+
+    .image1 {
+        height: 200px;
+        width: 86%;
+        margin-top: 15%;
+        margin-left: 7%;
+        background-size: 100% 400px;
+    }
+    .div_left a{
+    background-color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #CD5C5C;
+    border: 1px solid #CD5C5C;
+    width: 75px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    margin-left: 28px;
+}
+.div_left a:hover{
+    background-color:#0954D3;
+    color: #fff;
+    border: #fff;
+}
+
+    .div_right {
+        height: 395px;
+        width: 100%;
+        background-color: #F8F9F9;
+        float: left;
+    }
+
+    .div_right h2 {
+        font-size: 13px;
+        width: 89%;
+        color: #CD5C5C;
+        text-transform: uppercase;
+        position: relative;
+        top: 12%;
+        left: 7%;
+    }
+
+    .div_right p {
+        height: auto;
+        width: 87%;
+        font-size: 13px;
+        text-align: justify;
+        margin-left: 7%;
+        margin-top: 1px;
+    }
+
+    .image2 {
+        height: 200px;
+        width: 86%;
+        margin-top: 15%;
+        margin-left: 7%;
+        background-size: 100% 400px;
+    }
+    .div_right a{
+    background-color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #CD5C5C;
+    border: 1px solid #CD5C5C;
+    width: 75px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    margin-left: 28px;
+}
+.div_right a:hover{
+    background-color:#0954D3;
+    color: #fff;
+    border: #fff;
+}
+
+    .content {
+        height: 550px;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .div1 {
+        height: auto;
+        width: 86%;
+        float: left;
+        margin-left: 8%;
+        margin-top: 1%;
+    }
+
+    .div1 h2 {
+        font-size: 13px;
+        color: #CD5C5C;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+
+    .div1 p {
+        text-align: justify;
+        text-decoration: none;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .div1 a {
+        background-color: #fff;
+        text-decoration: none;
+        margin-top: 10px;
+        color: #CD5C5C;
+        border: 1px solid #CD5C5C;
+        width: 60px;
+        height: 18px;
+        font-size: 12px;
+        padding: 3px;
+        text-align: center;
+        display: block;
+    }
+
+    .div1 a:hover {
+        background-color: burlywood;
+    }
+
+    .icon1 {
+        height: 30px;
+        width: 30px;
+        margin-top: 10px;
+    }
+
+    .div2 {
+        height: auto;
+        width: 86%;
+        float: left;
+        margin-left: 8%;
+        margin-top: 1%;
+    }
+
+    .div2 h2 {
+        font-size: 12px;
+        color: #CD5C5C;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+
+    .div2 p {
+        text-align: justify;
+        text-decoration: none;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .div2 a {
+        background-color: #fff;
+        text-decoration: none;
+        margin-top: 10px;
+        color: #CD5C5C;
+        border: 1px solid #CD5C5C;
+        width: 60px;
+        height: 18px;
+        font-size: 12px;
+        padding: 3px;
+        text-align: center;
+        display: block;
+    }
+
+    .div2 a:hover {
+        background-color: burlywood;
+    }
+
+    .icon2 {
+        height: 30px;
+        width: 30px;
+        margin-top: 10px;
+    }
+
+    .div3 {
+        height: auto;
+        width: 86%;
+        float: left;
+        margin-left: 8%;
+        margin-top: 1%;
+    }
+
+    .div3 h2 {
+        font-size: 12px;
+        color: #CD5C5C;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+
+    .div3 p {
+        text-align: justify;
+        text-decoration: none;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    .div3 a {
+        background-color: #fff;
+        text-decoration: none;
+        margin-top: 10px;
+        color: #CD5C5C;
+        border: 1px solid #CD5C5C;
+        width: 60px;
+        height: 18px;
+        font-size: 12px;
+        padding: 3px;
+        text-align: center;
+        display: block;
+    }
+
+    .div3 a:hover {
+        background-color: burlywood;
+    }
+
+    .icon3 {
+        height: 30px;
+        width: 30px;
+        margin-top: 10px;
+    }
+
+    .footer {
+        height: auto;
+        width: 100%;
+        background-color: #E6474B;
+        overflow: hidden;
+    }
+
+    .footer h1 {
+        text-transform: uppercase;
+        font-size: 14px;
+        width: 30%;
+        color: white;
+        margin-top: 4%;
+        margin-left: 8%;
+    }
+
+    .div_input {
+        height: 310px;
+        width: 100%;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
+    .input_div1 {
+        float: left;
+        width: 100%;
+        height: 65px;
+    }
+
+    .input_div1 > input[type=text] {
+        height: 26px;
+        width: 84%;
+        margin-left: 8%;
+        background: transparent;
+        border: 1px solid white;
+        margin-top: 10px;
+        display: block;
+    }
+
+    .input_div1 > label {
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-left: 8%;
+        color: white;
+        display: block;
+    }
+
+    .input_div2 {
+        float: left;
+        width: 100%;
+        height: 65px;
+    }
+
+    .input_div2 > input[type=text] {
+        height: 26px;
+        width: 84%;
+        margin-left: 8%;
+        background: transparent;
+        border: 1px solid white;
+        margin-top: 10px;
+        display: block;
+    }
+
+    .input_div2 > label {
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-left: 8%;
+        color: white;
+        display: block;
+    }
+
+    .txt_area {
+        height: auto;
+        width: 93%;
+        overflow: hidden;
+    }
+
+    .txt_area > label {
+        text-transform: uppercase;
+        font-size: 13px;
+        color: white;
+        display: block;
+        margin-top: 0px;
+        margin-left: 8%;
+    }
+
+    .txt_area > textarea {
+        display: block;
+        margin-top: 10px;
+        margin-left: 8%;
+        width: 91%;
+        height: 100px;
+        background: transparent;
+        border: 1px solid white;
+    }
+
+    .div_input > input[type=button] {
+        height: 20px;
+        width: 105px;
+        text-transform: uppercase;
+        border: 1px solid white;
+        display: block;
+        color: white;
+        font-size: 11px;
+        text-align: center;
+        margin-left: 8%;
+        margin-top: 10px;
+        background: transparent;
+    }
+
+    .div_input input[type=button]:hover {
+        background-color: burlywood;
+    }
+
+    .div_input h2 {
+        text-transform: uppercase;
+        color: #F17E7E;
+        margin-top: 7px;
+        margin-left: 8%;
+        font-size: 10px;
+    }
+}

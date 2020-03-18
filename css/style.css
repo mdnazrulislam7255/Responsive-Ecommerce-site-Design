@@ -1,0 +1,527 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bodycontainer {
+    height: auto;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    height: auto;
+    width: 1000px;
+     
+}
+
+.navbar {
+    height: 70px;
+    width: auto;
+    background-color: #000000;
+    margin-top: 15px;
+   
+}
+
+.divlogo {
+    height: 70px;
+    width: 80px;
+    float: left;
+}
+
+.logo {
+    height: 50px;
+    width: 80px;
+    padding-left: 105px;
+    margin-top: 9px;
+}
+
+.navlist {
+    height: auto;
+    width: auto;
+    display: block;
+    float: right;
+}
+
+.navlist ul {
+    list-style: none;
+}
+
+.navlist li {
+    float: left;
+}
+
+.navlist li a:not(.homecolor) {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 26px 31px;
+}
+
+.homecolor {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 26px 31px;
+}
+
+li a:hover {
+    background-color: #2D2E30;
+}
+
+.div_image {
+    height: 400px;
+    width: 1000px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+}
+
+
+.div_image h3 {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 22%;
+    left: 12%;
+    color: white;
+}
+
+.div_image a {
+    text-transform: uppercase;
+    position: relative;
+    text-decoration: none;
+    display: block;
+    border: 2px solid white;
+    color: white;
+    top: 25%;
+    left: 12%;
+    padding-top: 12px;
+    height: 30px;
+    width: 115px;
+    text-align: center;
+    background: transparent;
+}
+
+.div_image a:hover {
+    background-color: #808080;
+}
+
+.body_top {
+    height: auto;
+    width: 862px;
+    display: block;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+
+.body_top h2 {
+    font-size: 20px;
+    color: #CD5C5C;
+    padding-left: 2px;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+.body_top p {
+    font-size: 16px;
+    text-decoration: none;
+    text-align: justify;
+    margin-top: 10px;
+    padding-left: 2px;
+}
+
+.body_top a {
+    background-color: #fff;
+    text-decoration: none;
+    margin-top: 5px;
+    color: #CD5C5C;
+    border: 2px solid #CD5C5C;
+    width: 75px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    margin-left: 3px;
+}
+
+.body_top a:hover {
+    background-color: burlywood;
+}
+
+.div_center {
+    width: 100%;
+    height: auto;
+    background-color: #F8F9F9;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.div_left {
+    height: 500px;
+    width: 50%;
+    background-color: #F0F0F0;
+    float: left;
+}
+
+.div_left h2 {
+    font-size: 16px;
+    color: #CD5C5C;
+    text-transform: uppercase;
+    position: relative;
+    top: 12%;
+    left: 14%;
+}
+
+.div_left p {
+    height: auto;
+    width: 72%;
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 14%;
+    margin-top: 10px;
+}
+
+.image1 {
+    height: 250px;
+    width: 360px;
+    transition: transform .2s;
+    margin-top: 15%;
+    margin-left: 14%;
+}
+
+.image1:hover {
+    transform: scale(1.3);
+}
+.div_left a{
+    background-color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #CD5C5C;
+    border: 2px solid #CD5C5C;
+    width: 75px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    margin-left: 70px;
+}
+.div_left a:hover{
+    background-color:#0954D3;
+    color: #fff;
+    border: #fff;
+}
+
+.div_right {
+    height: 500px;
+    width: 50%;
+    background-color: #F8F9F9;
+    float: left;
+}
+
+.div_right h2 {
+    font-size: 16px;
+    color: #CD5C5C;
+    text-transform: uppercase;
+    position: relative;
+    top: 12%;
+    left: 14%;
+}
+
+.div_right p {
+    height: auto;
+    width: 72%;
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 14%;
+    margin-top: 10px;
+}
+
+.image2 {
+    height: 250px;
+    width: 360px;
+    transition: transform .2s;
+    margin-top: 15%;
+    margin-left: 14%;
+}
+
+.image2:hover {
+    transform: scale(1.3);
+}
+.div_right a{
+    background-color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #CD5C5C;
+    border: 2px solid #CD5C5C;
+    width: 75px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    margin-left: 70px;
+}
+.div_right a:hover{
+    background-color:#0954D3;
+    color: #fff;
+    border: #fff;
+}
+
+.content {
+    height: 350px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.div1 {
+    height: auto;
+    width: 25%;
+    float: left;
+    margin-left: 7%;
+    margin-top: 7%;
+}
+
+.div1 h2 {
+    font-size: 16px;
+    color: #CD5C5C;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.div1 p {
+    text-align: justify;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.div1 a {
+    background-color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #CD5C5C;
+    border: 2px solid #CD5C5C;
+    width: 75px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+}
+
+.div1 a:hover {
+    background-color: burlywood;
+}
+
+.icon1 {
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+}
+
+.div2 {
+    height: auto;
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+.div2 h2 {
+    font-size: 16px;
+    color: #CD5C5C;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.div2 p {
+    text-align: justify;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.div2 a {
+    background-color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #CD5C5C;
+    border: 2px solid #CD5C5C;
+    width: 75px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+}
+
+.div2 a:hover {
+    background-color: burlywood;
+}
+
+.icon2 {
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+}
+
+.div3 {
+    height: auto;
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+.div3 h2 {
+    font-size: 16px;
+    color: #CD5C5C;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.div3 p {
+    text-align: justify;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.div3 a {
+    background-color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #CD5C5C;
+    border: 2px solid #CD5C5C;
+    width: 75px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+}
+
+.div3 a:hover {
+    background-color: burlywood;
+}
+
+.icon3 {
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+}
+
+.footer {
+    height: 510px;
+    width: 100%;
+    background-color: #E6474B;
+    overflow: hidden;
+}
+
+.footer h1 {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+.div_input {
+    height: 80px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.input_div1 {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.input_div1 > input[type=text] {
+    height: 28px;
+    width: 78%;
+    margin-left: 14%;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 10px;
+    display: block;
+}
+
+.input_div1 > label {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 14%;
+    color: white;
+    display: block;
+}
+
+.input_div2 {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.input_div2 > input[type=text] {
+    height: 28px;
+    width: 78%;
+    margin-left: 4%;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 10px;
+    display: block;
+}
+
+.input_div2 > label {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 4%;
+    color: white;
+    display: block;
+}
+
+.txt_area {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.txt_area > label {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+    display: block;
+    margin-top: 20px;
+    margin-left: 7%;
+}
+
+.txt_area > textarea {
+    display: block;
+    margin-top: 20px;
+    margin-left: 7%;
+    width: 84%;
+    height: 220px;
+    background: transparent;
+    border: 1px solid white;
+}
+
+.div_input > input[type=button] {
+    height: 40px;
+    width: 120px;
+    text-transform: uppercase;
+    border: 2px solid white;
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin-left: 7%;
+    margin-top: 10px;
+    background: transparent;
+}
+
+.div_input input[type=button]:hover {
+    background-color: #FC735E;
+}
+
+.div_input h2 {
+    text-transform: uppercase;
+    color: #F17E7E;
+    margin-top: 10px;
+    margin-left: 7%;
+    font-size: 16px;
+}
